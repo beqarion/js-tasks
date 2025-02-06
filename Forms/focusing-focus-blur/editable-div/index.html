@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Div</title>
+  <script src="./script.js" defer></script>
+  <style>
+    .view {
+      padding: 2px;
+      border: 1px solid black;
+    }
+
+    .view,
+    .edit {
+      height: 150px;
+      width: 400px;
+      font-family: sans-serif;
+      font-size: 14px;
+      display: block;
+    }
+
+    .edit {
+      border: 3px solid blue;
+      padding: 0px;
+    }
+
+    .edit:focus {
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+  <ul>
+    <li>Click the div to edit.</li>
+    <li>Enter or blur saves the result.</li>
+  </ul>
+  " HTML is allowed. "
+  <div id="view" class="view">Text</div>
+</body>
+
+</html>
