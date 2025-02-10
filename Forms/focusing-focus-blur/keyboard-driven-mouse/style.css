@@ -1,0 +1,10 @@
+#mouse {
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+
+  position: fixed;
+}
+#mouse:focus {
+  outline: 1px dashed black;
+}
